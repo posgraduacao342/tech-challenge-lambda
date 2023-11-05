@@ -1,0 +1,32 @@
+{
+  "name": "tech-challenge-lambda",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/posgraduacao342/tech-challenge-lambda.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/posgraduacao342/tech-challenge-lambda/issues"
+  },
+  "homepage": "https://github.com/posgraduacao342/tech-challenge-lambda#readme",
+  "devDependencies": {
+    "@types/aws-lambda": "^8.10.125",
+    "@types/jsonwebtoken": "^9.0.4",
+    "@types/node": "^20.8.10",
+    "@vercel/ncc": "^0.38.1",
+    "eslint-config-prettier": "^9.0.0",
+    "eslint-plugin-prettier": "^5.0.1",
+    "prettier": "^3.0.3",
+    "typescript": "^5.2.2"
+  },
+  "dependencies": {
+    "aws-sdk": "^2.1488.0",
+    "jsonwebtoken": "^9.0.2",
+    "pg": "^8.11.3"
+  }
+}
