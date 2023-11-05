@@ -2,7 +2,6 @@ import { APIGatewayProxyEvent, APIGatewayProxyResultV2, Handler } from 'aws-lamb
 import { Client } from 'pg';
 import jwt from 'jsonwebtoken'
 
-
 const connectDb = async (): Promise<Client> => {
     const client = new Client({
         database: process.env.DATA_BASE,
